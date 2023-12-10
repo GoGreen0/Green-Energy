@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gridContainer {
+  border: 2px solid black;
+  width: 100%;
+
+  display: grid;
+height: auto;
+min-height: 100vh;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 10% 60% 30%;
+}
+
+.Header {
+  border-style: solid;
+  border-color: red;
+ 
+  text-align: center;
+  color: cornflowerblue;
+  grid-column: 1/4;
+}
+
+.Aside1 {
+  border-style: solid;
+  border-color: deepskyblue;
+ 
+  text-align: center;
+  padding-top: 15px;
+  color: cornflowerblue;
+}
+
+.Aside2 {
+  border-style: solid;
+  border-color: deepskyblue;
+ 
+  text-align: center;
+
+  color: cornflowerblue;
+}
+
+.Body {
+  border-style: solid;
+  border-color: gold;
+ 
+  text-align: center;
+
+  color: cornflowerblue;
+}
+
+
+
+/*styling for the body starts here*/
+.carouselContainer{
+  width: 70%;
+  margin: auto;
+  height: 30vh;
+  margin-top: 30px;
+  box-shadow: 1px 1px 20px 1px black;
+}
+
+
+.carouselContainer img{
+  height: 30vh;
+}
+/*styling for the body ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Footer {
+  border-style: solid;
+  border-color: mediumorchid;
+ 
+  text-align: center;
+  grid-column: 1/4;
+  color: cornflowerblue;
+  
+}
+
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 11px 1px black;
+}
+
+.Footer a{
+  text-decoration: none;
+  color: rgb(25, 56, 34);
+
+}
+.Footer i{
+ 
+  color: rgb(25, 56, 34);
+
+}
+.Footer a:visited{
+
+  color: rgb(25, 56, 34);
+
+}
+.Footer a:hover{
+  font-size: 22px;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+
+}
